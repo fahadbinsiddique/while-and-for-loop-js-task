@@ -65,3 +65,15 @@ while (numb5 <= 311) {
 }
 console.log("problem-3: Subtusk-2", total5);
 
+// for Loop:
+
+// Problem-1:
+// I will invest at least 6 hrs every single day for next 60 days! this
+// message 60 times. So display this.
+
+for (let index6 = 1; index6 <= 60; index6++) {
+  console.log(
+    index6,
+    "I will invest at least 6 hrs every single day for next 60 days!"
+  );
+}
