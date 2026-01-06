@@ -25,3 +25,14 @@ numb2.push("tourist-new-1", "tourist-new-2");
 console.log("adding two more", numb2);
 numb2.pop();
 console.log("remove and final", numb2);
+
+let numb3 = ["book1", "book2", "javascript", "book4"];
+console.log(
+  "is the element is present in the array? ",
+  numb3.includes("javascript")
+);
+console.log(" is an array?", Array.isArray(numb3));
+
+let numb4 = numb2.concat(numb3);
+numb4.sort();
+console.log("two array =", numb4);
